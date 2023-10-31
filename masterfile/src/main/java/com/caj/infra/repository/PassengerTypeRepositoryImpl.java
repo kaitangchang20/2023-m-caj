@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import com.caj.domain.masterfile.PassengerTypeDo;
 import com.caj.domain.masterfile.PassengerTypeRepository;
 import com.caj.infra.repository.mapper.PassengerTypeDao;
+import java.util.Optional;
+import com.caj.infra.repository.po.PassengerTypePo;
 
 @Service
 public class PassengerTypeRepositoryImpl implements PassengerTypeRepository {
