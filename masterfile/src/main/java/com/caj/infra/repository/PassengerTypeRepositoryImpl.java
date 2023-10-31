@@ -36,7 +36,7 @@ public class PassengerTypeRepositoryImpl implements PassengerTypeRepository {
 	}
 
 	/**
-         * 取得折扣率
+         * 取得折扣率123
          */
         @Override
         public BigDecimal findPassengerDiscount(String passengerType) {
